@@ -47,7 +47,7 @@ jobs:
         sh dl_toolchain.sh
     - name: Build Firmware
       env:
-        TNAME: K2P
+        TNAME: B70
         KERNEL: 3.4
       run: |
         mkdir -p /opt/images/
